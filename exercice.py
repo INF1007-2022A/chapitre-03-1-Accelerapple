@@ -9,15 +9,15 @@ def square_root(a: float) -> float:
 
 
 def square(a: float) -> float:
-    return 0.0
+    return math.pow(a, 2)
 
 
 def average(a: float, b: float, c: float) -> float:
-    return 0.0
+    return math.fsum([a, b, c])/3
 
 
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
-    return 0.0
+    return math.radians(angle_degs), angle_mins/60*(2*math.pi), angle_secs/60*(2*math.pi)
 
 
 def to_degrees(angle_rads: float) -> tuple:
