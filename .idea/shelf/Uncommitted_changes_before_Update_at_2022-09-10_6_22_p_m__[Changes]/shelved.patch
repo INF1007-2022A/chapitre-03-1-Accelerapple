@@ -1,0 +1,35 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)\r\n\r\n# Exercices en vrac (chapitre 3)\r\n\r\nAvant de commencer. Consulter les instructions à suivre dans [instructions.md](instructions.md)\r\n\r\n## Objectifs\r\n\r\nCompléter les quelques exercices suivants en modifiant le code de [exercice.py](exercice.py):\r\n\r\n1. Calculer la racine carré et le carré d'un nombre\r\n2. Calculer la moyenne de 3 nombres donnés\r\n3. Convertir en radians un angle fourni au départ en degrés, minutes, secondes\r\n4. Convertir en degrés, minutes, secondes un angle fourni au départ en radians\r\n5. Convertir en degrés Celsius une température exprimée au départ en degrés Fahrenheit et vice-versa\r\n\r\n### À compléter\r\nVous devez compléter les fonctions suivantes du fichier [exercice.py](exercice.py).\r\n\r\n```python\r\ndef square_root(a: float) -> float:\r\n    return 0.0\r\n\r\ndef square(a: float) -> float:\r\n    return 0.0\r\n\r\ndef average(a: float, b: float, c: float) -> float:\r\n    return 0.0\r\n\r\ndef to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:\r\n    return 0.0\r\n\r\ndef to_degrees(angle_rads: float) -> tuple:\r\n    return 0.0, 0.0, 0.0\r\n\r\ndef to_celsius(temperature: float) -> float:\r\n    return 0.0\r\n\r\ndef to_farenheit(temperature: float) -> float:\r\n    return 0.0\r\n```\r\n\r\n## Connaissances utiles\r\n\r\n### Opérateurs arithmétiques de base\r\nhttps://www.w3schools.com/python/python_operators.asp\r\n\r\n### Documentation du module math\r\nhttps://docs.python.org/3/library/math.html\r\n\r\n### Formule de conversion Celsius vers Farenheit\r\nTf = Tc x 1.8 + 32\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision d45f46bb5f5488ac573c5f5e3b2d641f0a54e4fa)
++++ b/README.md	(date 1662847636540)
+@@ -1,5 +1,24 @@
+ [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
+ 
++
++
++
++
++
++
++## Résultats
++Score | Critères
++--- | ---
++1/1 | Calcul de la moyenne de 3 nombres
++1/1 | Calcul du carré
++1/1 | Calcul de la racine carré
++1/1 | Conversion Farenheit -> Celsius
++0/1 | Conversion radians -> degrés
++1/1 | Conversion Celsius -> Farenheit
++1/1 | Conversion degrés -> radians
++6/7 | **Total**
++
++[Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
+ # Exercices en vrac (chapitre 3)
+ 
+ Avant de commencer. Consulter les instructions à suivre dans [instructions.md](instructions.md)
